@@ -15,14 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  laravel, // <-- Correctly imported
+  // Your project images
   ocp,
   nitrogym,
   inventoryapp,
@@ -122,7 +117,7 @@ const experiences = [
   {
     title: "Digital Development Intern",
     company_name: "OCP Group",
-    icon: starbucks,
+    icon: laravel, // <-- Correct icon
     iconBg: "#383E56",
     date: "April 1, 2025 - April 30, 2025",
     points: [
@@ -160,43 +155,16 @@ const experiences = [
   {
     title: "Full Stack Developer (Client Project)",
     company_name: "NITRO GYM",
-    icon: reactjs, // Set to reactjs as requested
-    iconBg: "#E6DEDD", // A light background for the React icon
-    date: "August 2025 - October 2025", // Updated date
+    icon: tailwind,
+    iconBg: "#E6DEDD",
+    date: "August 2025 - October 2025",
     points: [
       "Developed a complete web application for 'NITRO GYM' using React, Vite, and Firebase.",
       "Built a secure admin panel for the gym owner to track and manage members.",
       "Implemented Firebase Authentication for both admin and member login systems.",
       "Used Firestore to store and manage all user data and membership information.",
-      "Leveraged Firebase Storage for hosting all gym-related pictures and videos.",
+      "Deployed the final application using Firebase Hosting for fast and secure global content delivery.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -223,7 +191,7 @@ const projects = [
     source_code_link: "https://github.com/Salaheddinelahdar/OCP-FINAL-VERSION-V3.git",
   },
   {
-   name: "NITRO GYM",
+    name: "NITRO GYM",
     description:
       "A complete web application for a client's gym, built with React and Firebase. Includes a secure admin panel for tracking and managing members, with authentication and data/media storage.",
     tags: [
@@ -249,7 +217,7 @@ const projects = [
       "An academic web application for managing inventory. I designed the UI in Figma, built the responsive frontend with React and Tailwind, and contributed to the Express.js backend.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -257,13 +225,14 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwind",
         color: "green-text-gradient",
       },
     ],
     image: inventoryapp,
     source_code_link: "https://github.com/Salaheddinelahdar/OFFPT-MANAGMENT-SALAH-user.git",
-  },{
+  },
+  {
     name: "MERN E-commerce Store",
     description:
       "An academic full-stack e-commerce store for selling gym supplements. Features a RESTful API with Express, a React frontend, and a MongoDB database for users, products, and orders.",
@@ -284,7 +253,7 @@ const projects = [
     image: ecomstore,
     source_code_link: "https://github.com/",
   },
-  
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+// Removed 'testimonials' from the export
+export { services, technologies, experiences, projects };

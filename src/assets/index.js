@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Your Tech Icons
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,19 +22,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// Your Company Icons (Corrected Path)
+import laravel from "./company/laravel.jpg";
+import tailwindcss from "./company/tailwindcss.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// Your Project Images
 import ocp from "./ocp.jpg";
 import nitrogym from "./nitrogym.png";
 import inventoryapp from "./inventoryapp.png";
 import ecomstore from "./ecomstore.png";
 
+// This export block is now clean and correct
 export {
   logo,
   backend,
@@ -56,14 +55,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  // --- FIX: ADDED YOUR PROJECTS HERE ---
+  laravel,
+  tailwindcss,
   ocp,
   nitrogym,
   inventoryapp,
